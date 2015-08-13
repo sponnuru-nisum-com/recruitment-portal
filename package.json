@@ -1,0 +1,38 @@
+{
+  "name": "InterviewStatus",
+  "version": "0.0.0",
+  "description": "Code from the React tutorial.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "express-validator":"^2.14.2",
+    "log4js": "0.6.16",
+    "mysql": "2.4.2","passport": "0.2.0",
+    "passport-local": "1.0.0",
+    "connect-flash": "0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "comment",
+    "example"
+  ],
+  "author": "vnky",
+  "bugs": {
+    "url": "https://nobugs.com"
+  },
+  "homepage": "",
+  "engines" : {
+    "node" : "0.12.x"
+  }
+}
