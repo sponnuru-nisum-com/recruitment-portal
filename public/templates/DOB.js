@@ -18,6 +18,7 @@ var Dob=React.createClass({displayName: "Dob",
 	   }
 	 },
 	render:function(){
+		console.log("swathi");
 		return(
 			React.createElement("div", {className: "row form-group"}, 
 				React.createElement("label", {className: "col-xs-2 col-sm-2 col-md-2 col-lg-2"}, this.props.label+":"), 
