@@ -13,3 +13,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.listen(app.get('port'), function() {
   console.log('Server started: http://localhost:' + app.get('port') + '/');
 });
+
+app.post('/registration', function(req, res){
+ console.log(res);
+ console.log('Factfish');
+ res.send('Factfish');
+});
