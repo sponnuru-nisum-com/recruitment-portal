@@ -9,13 +9,12 @@ app.set('port', (process.env.PORT || 3000));
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-
+app.post('/registration', function(req,res){
+	console.log(req.body);
+	console.log('Factfish');
+	res.json('Factfish');
+});
 app.listen(app.get('port'), function() {
   console.log('Server started: http://localhost:' + app.get('port') + '/');
 });
 
-app.post('/registration', function(req, res){
- console.log(res);
- console.log('Factfish');
- res.send('Factfish');
-});
