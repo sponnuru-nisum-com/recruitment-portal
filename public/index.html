@@ -1,37 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <script src="lib/js/react.js"></script>
-   <script src="lib/js/JSXTransformer.js"></script>
-   <script src="lib/js/react-with-addons.js"></script>
-   <script src="lib/js/jquery-1.11.1.min.js"></script>
-   <script src="lib/js/bootstrap.js"></script>
-   <script src="lib/js/validator.js"></script>
-    <script src="templates/Input.js"></script>
-   <script src="templates/SelectOption.js"></script>
-   <script src="templates/DOB.js"></script>
-   <script src="templates/CreateForm.js"></script>
-   <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.css"></link>
-   <style>
- 	#date,#month,#year
-	{
-		height:34px;
-		padding:6px 7px;
-		font-size:14px;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		width:120px;
-	}
-	#Register{
-		color:#337ab7;
-		margin:10px 0px 20px 90px;
-	}
-   </style>
+	<link href="lib/css/bootstrap.css" rel="stylesheet"></link>
+	<link href="css/main.css" rel="stylesheet"></link>
 </head>
 <body>
-<div id="todo" class="container"></div>
- <script type="text/jsx">
-	React.render(React.createElement(CreateForm),document.getElementById("todo"));
-</script>
+	<div id="main"></div>
+	<script src="bundle.js"></script>
 </body>
 </html>

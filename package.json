@@ -6,16 +6,26 @@
   "dependencies": {
     "body-parser": "^1.4.3",
     "express": "^4.4.5",
-    "express-validator":"^2.14.2",
+    "express-validator": "^2.14.2",
     "log4js": "0.6.16",
-    "mysql": "2.4.2","passport": "0.2.0",
+    "mysql": "2.4.2",
+    "passport": "0.2.0",
     "passport-local": "1.0.0",
-    "connect-flash": "0.1.1"
+    "connect-flash": "0.1.1",
+    "react": "^0.14.3",
+    "bootstrap": "^4.0.0-alpha.2",
+    "flux": "^2.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-browserify": "*",
+    "gulp-sass": "^2.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "browserify": "browserify public/js/app.js -o public/bundle.js -d",
+    "jsx": "jsx --watch public/js/components/ public/js/templates/"
   },
   "repository": {
     "type": "git",
@@ -32,7 +42,7 @@
     "url": "https://nobugs.com"
   },
   "homepage": "",
-  "engines" : {
-    "node" : "0.12.x"
+  "engines": {
+    "node": "0.12.x"
   }
 }
