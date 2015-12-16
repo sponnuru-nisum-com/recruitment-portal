@@ -9,17 +9,22 @@
     "express-validator": "^2.14.2",
     "log4js": "0.6.16",
     "mysql": "2.4.2",
-    "passport": "0.2.0",
-    "passport-local": "1.0.0",
-    "connect-flash": "0.1.1",
+    "passport": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "connect-flash": "^0.1.1",
     "react": "^0.14.3",
     "bootstrap": "^4.0.0-alpha.2",
-    "flux": "^2.1.1"
+    "flux": "^2.1.1",
+    "react-dom": "^0.14.3",
+    "react-addons-linked-state-mixin": "^0.14.3",
+    "mongoose": "^4.3.1",
+    "jquery": "^2.1.4"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-browserify": "*",
-    "gulp-sass": "^2.1.1"
+    "gulp-sass": "^2.1.1",
+    "gulp-react": "^3.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
