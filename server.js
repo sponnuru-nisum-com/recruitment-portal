@@ -24,7 +24,7 @@ mongoose.connection.once("open",function(){
 });
 
 //passport configuration
-require('./server/passport')(passpor);
+require('./server/passport')(passport);
 
 
 app.listen(app.get('port'), function() {
